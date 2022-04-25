@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.topmost {
+  background: #1f2937;
+}
+
+.header {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-around;
+}
+
+h1 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
