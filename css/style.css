@@ -18,13 +18,23 @@ h2 {
   color: #f9faf8;
 }
 
+h1,
+button {
+  margin: 0;
+}
+
 h1 {
   font-size: 48px;
-  margin: 0;
 }
 
 h2 {
   font-size: 24px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
 }
 
 ul {
@@ -34,8 +44,7 @@ ul {
 }
 
 .info,
-a,
-button {
+a {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -64,13 +73,54 @@ p {
 button {
   background-color: #3882f6;
   padding: 10px 32px;
-  margin: 0;
   border: none;
   border-radius: 12px;
+}
+
+button a {
   font-size: 20px;
 }
 
 .top.image {
-  height: 250px;
-  width: auto;
+  max-height: 25%;
+  max-width: 25%;
+}
+
+.random {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.boxes {
+  display: flex;
+  gap: 48px;
+}
+
+.box-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 12px;
+}
+
+.box-text p {
+  padding-top: 6px;
+  color: #636363;
+  text-align: center;
+}
+
+.quote-section {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  background: #e5e7eb;
 }
