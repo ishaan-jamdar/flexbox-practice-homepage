@@ -184,3 +184,16 @@ h5 {
   border: 2px solid #e5e7eb;
   border-radius: 12px;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  background: #1f2937;
+}
+
+.footer p {
+  margin: 0;
+  color: #f9faf8;
+}
