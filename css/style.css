@@ -113,6 +113,13 @@ button a {
   border-radius: 12px;
 }
 
+.box img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
 .box-text p {
   padding-top: 6px;
   color: #636363;
